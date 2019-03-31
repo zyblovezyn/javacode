@@ -8,4 +8,5 @@ import java.util.List;
 public interface CountryMapper {
     public List<Country> selectAll();
     public int update(Country country);
+    public Country selectById(long id);
 }

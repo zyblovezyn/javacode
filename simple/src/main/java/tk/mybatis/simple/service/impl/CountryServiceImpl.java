@@ -35,4 +35,9 @@ public class CountryServiceImpl implements CountryService  {
 
         return 0;
     }
+
+    @Override
+    public Country selectById(long id) {
+        return countryMapper.selectById(id);
+    }
 }

@@ -9,4 +9,5 @@ public interface CountryService {
 
     public int update();
 
+    public Country selectById(long id);
 }
