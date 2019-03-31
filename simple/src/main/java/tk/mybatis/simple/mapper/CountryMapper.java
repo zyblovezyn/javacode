@@ -7,4 +7,5 @@ import java.util.List;
 @Mapper
 public interface CountryMapper {
     public List<Country> selectAll();
+    public int update(Country country);
 }

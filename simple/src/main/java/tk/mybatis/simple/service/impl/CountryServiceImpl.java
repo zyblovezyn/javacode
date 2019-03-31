@@ -17,9 +17,22 @@ public class CountryServiceImpl implements CountryService  {
     @Resource
     private CountryMapper countryMapper;
 
-    @Transactional
+    @Transactional //表示这个方法开启事务
     @Override
-    public List<Country> selectAll() {
+    public List<Country> selectAll()
+    {
         return countryMapper.selectAll();
+    }
+
+    @Transactional //10/0 抛出异常查看是否回滚
+    @Override
+    public int update() {
+        Country country=new Country();
+        country.setId((long) 1);
+        country.setCountryname("美国-update");
+        countryMapper.update(country);
+        int i=10/0;
+
+        return 0;
     }
 }

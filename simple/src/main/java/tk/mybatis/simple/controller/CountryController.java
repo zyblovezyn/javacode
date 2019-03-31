@@ -10,7 +10,7 @@ import tk.mybatis.simple.service.CountryService;
 
 import javax.annotation.Resource;
 
-@EnableTransactionManagement //
+@EnableTransactionManagement //开启springboot事务支持
 @RestController
 public class CountryController {
 
@@ -20,5 +20,9 @@ public class CountryController {
     @RequestMapping("/boot/selectAll")
     public Object selectAll(){
         return countryService.selectAll();
+    }
+    @RequestMapping("/boot/update")
+    public Object update(){
+        return countryService.update();
     }
 }
