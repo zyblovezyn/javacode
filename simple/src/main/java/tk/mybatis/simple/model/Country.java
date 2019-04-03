@@ -1,6 +1,9 @@
 package tk.mybatis.simple.model;
 
-public class Country {
+import java.io.Serializable;
+
+public class Country implements Serializable {
+
     private Long id;
     private String countryname;
     private String countrycode;

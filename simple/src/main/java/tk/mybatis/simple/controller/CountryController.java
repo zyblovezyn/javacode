@@ -9,10 +9,11 @@ import tk.mybatis.simple.mapper.CountryMapper;
 import tk.mybatis.simple.service.CountryService;
 
 import javax.annotation.Resource;
+import java.io.Serializable;
 
 @EnableTransactionManagement //开启springboot事务支持
 @RestController
-public class CountryController {
+public class CountryController{
 
     @Autowired
     protected CountryService countryService;
