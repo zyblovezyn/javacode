@@ -10,6 +10,9 @@ import tk.mybatis.simple.service.CountryService;
 
 import javax.annotation.Resource;
 import java.io.Serializable;
+import java.util.concurrent.Executor;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 @EnableTransactionManagement //开启springboot事务支持
 @RestController
@@ -20,6 +23,22 @@ public class CountryController{
 
     @RequestMapping("/boot/selectAll")
     public Object selectAll(){
+
+        //多线程测试缓存穿透问题
+        ExecutorService executorServive=Executors.newFixedThreadPool(50);
+
+        for (int i=0;i<10000;i++){
+            executorServive.submit(new Runnable() {
+                @Override
+                public void run() {
+                    countryService.selectAll();
+                }
+            });
+        }
+
+
+
+
         return countryService.selectAll();
     }
     @RequestMapping("/boot/update")

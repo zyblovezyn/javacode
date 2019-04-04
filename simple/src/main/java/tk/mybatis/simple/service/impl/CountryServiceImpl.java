@@ -28,16 +28,29 @@ public class CountryServiceImpl implements CountryService {
     @Override
     public List<Country> selectAll() {
         //字符串的序列化器
-        RedisSerializer redisSerializer=new StringRedisSerializer();
+        RedisSerializer redisSerializer = new StringRedisSerializer();
         redisTemplate.setKeySerializer(redisSerializer);
+
+        //在高并发环境下，此处有点问题 缓存穿透
         List<Country> countryList = (List<Country>) redisTemplate.opsForValue().get("allCountry");
+
         if (countryList == null) {
-            countryList = countryMapper.selectAll();
-            redisTemplate.opsForValue().set("allCountry",countryList);
-            return countryList;
-        } else {
-            return countryList;
+            synchronized (this) {
+                // 从redis获取
+                countryList = (List<Country>) redisTemplate.opsForValue().get("allCountry");
+                if (countryList == null) {
+                    System.out.println("查询数据库");
+                    countryList = countryMapper.selectAll();
+                    redisTemplate.opsForValue().set("allCountry", countryList);
+                    return countryList;
+                }else{
+                    System.out.println("查询缓存");
+                }
+            }
+        }else{
+            System.out.println("查询缓存");
         }
+        return countryList;
     }
 
     @Transactional //10/0 抛出异常查看是否回滚
