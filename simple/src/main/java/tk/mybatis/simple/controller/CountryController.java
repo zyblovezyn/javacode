@@ -25,7 +25,7 @@ public class CountryController{
     public Object selectAll(){
 
         //多线程测试缓存穿透问题
-        ExecutorService executorServive=Executors.newFixedThreadPool(50);
+        ExecutorService executorServive=Executors.newFixedThreadPool(5);
 
         for (int i=0;i<10000;i++){
             executorServive.submit(new Runnable() {
