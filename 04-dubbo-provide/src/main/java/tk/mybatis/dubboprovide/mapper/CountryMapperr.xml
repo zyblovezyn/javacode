@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="tk.mybatis.simple.mapper.CountryMapper">
+
+    <!--  <resultMap id="userResultMap" type="tk.mybatis.simple.model.Country">
+          <id property="id" column="id"/>
+          <result property="countryname" column="countryname"/>
+          <result property="countrycode" column="countrycode"/>
+      </resultMap>-->
+    <sql id="dataColumn">
+         id, countryname, countrycode
+    </sql>
+    <select id="selectAll" resultType="tk.mybatis.simple.model.Country">
+        SELECT
+          <include refid="dataColumn"/>
+        FROM
+             mybatis.country
+    </select>
+    <update id="update" parameterType="tk.mybatis.simple.model.Country">
+        update mybatis.country set  countryname=#{countryname} where id=#{id}
+    </update>
+
+    <select id="selectById" resultType="tk.mybatis.simple.model.Country" parameterType="long">
+        select <include refid="dataColumn"/> from mybatis.country where id=#{id}
+    </select>
+</mapper>
