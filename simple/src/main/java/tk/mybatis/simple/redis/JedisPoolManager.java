@@ -132,26 +132,18 @@ public class JedisPoolManager {
 
                         String server1 = props.getProperty("sentinel.server1");
                         String server2 = props.getProperty("sentinel.server2");
-                        String server3 = props.getProperty("sentinel.server3");
-                        String server4 = props.getProperty("sentinel.server4");
                         serverIsIlleage(server1);
                         serverIsIlleage(server2);
-                        serverIsIlleage(server3);
-                        serverIsIlleage(server4);
                         int timeout = Integer.parseInt(props.getProperty("sentinel.timeout"));
-                        String password = props.getProperty("sentinel.commonpassword");
+                        String password = props.getProperty("sentinel.password");
                         String clusterName = props.getProperty("sentinel.cluster");
 
                         Set<String> sentinels = new HashSet<String>();
                         String hostAndPort1 = server1;
                         String hostAndPort2 = server2;
-                        String hostAndPort3 = server3;
-                        String hostAndPort4 = server4;
 
                         sentinels.add(hostAndPort1);
                         sentinels.add(hostAndPort2);
-                        sentinels.add(hostAndPort3);
-                        sentinels.add(hostAndPort4);
 
                         jedisSentinelPool = new JedisSentinelPool(clusterName, sentinels, config, password);
                     }
@@ -183,7 +175,7 @@ public class JedisPoolManager {
         try {
             getJedisSentinelPool();
             Jedis jedis = getJedisSentinelPool().getResource();
-            jedis.auth("myredis12358");
+            jedis.auth("redis12358");
             return jedis;
         } catch (Exception e) {
             e.printStackTrace();
