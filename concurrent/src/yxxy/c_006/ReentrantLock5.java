@@ -16,7 +16,7 @@
  * 
  * @author mashibing
  */
-package yxxy.c_020;
+package yxxy.c_006;
 
 import java.util.concurrent.locks.ReentrantLock;
 

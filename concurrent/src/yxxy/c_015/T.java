@@ -22,7 +22,8 @@ public class T {
 	}
 
 	public static void main(String[] args) {
-		T t = new T();
+		T t;
+		t = new T();
 
 		List<Thread> threads = new ArrayList<Thread>();
 
