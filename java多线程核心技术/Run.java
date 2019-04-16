@@ -1,3 +1,4 @@
+import java.lang.Thread;
 public class Countoperate extends Thread{
 	public Countoperate(){
 		System.out.println("Countoperate---begin");
