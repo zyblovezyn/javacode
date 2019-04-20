@@ -1,6 +1,4 @@
-package concurrent.productAndconsumer;
 
-import concurrent.BlockingQueue.Productor;
 
 import java.util.Random;
 import java.util.concurrent.BlockingQueue;

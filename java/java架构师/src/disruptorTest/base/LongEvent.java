@@ -1,4 +1,3 @@
-package disruptorTest.base;
 
 import javafx.event.Event;
 

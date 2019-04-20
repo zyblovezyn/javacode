@@ -1,5 +1,4 @@
-package disruptorTest.base;
-import com.lmax.disruptor.RingBuffer;
+ import com.lmax.disruptor.RingBuffer;
 import com.lmax.disruptor.YieldingWaitStrategy;
 import com.lmax.disruptor.dsl.Disruptor;
 import com.lmax.disruptor.dsl.ProducerType;
@@ -29,8 +28,8 @@ public class LongEventMain {
 
         RingBuffer<LongEvent> ringBuffer=disruptor.getRingBuffer();
 
-        LongEventProducer producer= new LongEventProducer(ringBuffer);
-
+        //LongEventProducer producer= new LongEventProducer(ringBuffer);
+        LongEventProducerWithTranslator producer=new LongEventProducerWithTranslator(ringBuffer);
         ByteBuffer byteBuffer=ByteBuffer.allocate(8);
         for (long a=0;a<100;a++){
             byteBuffer.putLong(0,a);

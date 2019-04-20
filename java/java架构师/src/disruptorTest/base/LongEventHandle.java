@@ -1,4 +1,3 @@
-package disruptorTest.base;
 
 import com.lmax.disruptor.EventHandler;
 

@@ -1,4 +1,3 @@
-package concurrent.BlockingQueue;
 
 import java.util.concurrent.*;
 

@@ -1,4 +1,3 @@
-package concurrent.productAndconsumer;
 
 import java.util.concurrent.*;
 

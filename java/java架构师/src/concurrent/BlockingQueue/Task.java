@@ -1,4 +1,3 @@
-package concurrent.BlockingQueue;
 
 public class Task implements Comparable<Task> {
     private int id;

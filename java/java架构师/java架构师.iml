@@ -15,7 +15,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/concurrent" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/HeadFist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/concurrent/BlockingQueue" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/concurrent/connThreadLocal" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/concurrent/listadd" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/concurrent/Lock" isTestSource="false" />
@@ -30,6 +29,10 @@
       <sourceFolder url="file://$MODULE_DIR$/src/concurrent/UseExecutor" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/HeadFist/SimpleFactory" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lib" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/disruptorTest" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/concurrent/BlockingQueue" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/disruptorTest/base" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GeneticsAndCollection" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -1,4 +1,3 @@
-package concurrent.productAndconsumer;
 
 public class Data {
     private int id;

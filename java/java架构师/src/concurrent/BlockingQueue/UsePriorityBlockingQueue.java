@@ -1,4 +1,3 @@
-package concurrent.BlockingQueue;
 
 import java.util.Iterator;
 import java.util.concurrent.PriorityBlockingQueue;
