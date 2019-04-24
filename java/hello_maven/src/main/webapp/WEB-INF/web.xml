@@ -8,7 +8,11 @@
         <servlet-name>Servlet</servlet-name>
         <servlet-class>com.huayun.AddUser</servlet-class>
     </servlet>
-    
+    <servlet>
+        <servlet-name>Servlet2</servlet-name>
+        <servlet-class>com.huayun.Servlet2</servlet-class>
+    </servlet>
+
     <servlet-mapping>
         <servlet-name>Servlet</servlet-name>
         <url-pattern>/addUser</url-pattern>

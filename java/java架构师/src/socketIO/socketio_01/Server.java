@@ -13,8 +13,16 @@ public class Server {
             serverSocket = new ServerSocket(PORT);
             System.out.println("server start...");
             //进行阻塞
-            Socket socket = serverSocket.accept();
-            new Thread(new ServerHandler(socket)).start();
+           /* Socket socket = serverSocket.accept();
+            new Thread(new ServerHandler(socket)).start();*/
+            HandlerExectorPool exectorPool = new HandlerExectorPool(50, 1000);
+            Socket socket = null;
+            while (true) {
+                socket = serverSocket.accept();
+                exectorPool.execute(new ServerHandler(socket));
+            }
+
+
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
