@@ -8,8 +8,9 @@ import java.util.concurrent.TimeUnit;
 public class HandlerExectorPool {
 
     private ExecutorService executorService;
-    public HandlerExectorPool(int maxPoolSize,int queueSize){
-        this.executorService=new ThreadPoolExecutor(
+
+    public HandlerExectorPool(int maxPoolSize, int queueSize) {
+        this.executorService = new ThreadPoolExecutor(
                 Runtime.getRuntime().availableProcessors(),
                 maxPoolSize,
                 120L,
@@ -18,7 +19,7 @@ public class HandlerExectorPool {
         );
     }
 
-    public void execute(Runnable task){
+    public void execute(Runnable task) {
         this.executorService.execute(task);
     }
 }

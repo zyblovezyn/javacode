@@ -45,9 +45,9 @@ public class ConnThreadLocal {
         t2.start();
 
         Map<String, String> map = Collections.synchronizedMap(new HashMap<String, String>());
-        System.out.println(1<<30);
-        System.out.println(Integer.MAX_VALUE>>1);
-        System.out.println(Integer.MAX_VALUE/2);
+        System.out.println(1 << 30);
+        System.out.println(Integer.MAX_VALUE >> 1);
+        System.out.println(Integer.MAX_VALUE / 2);
 
     }
 }

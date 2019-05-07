@@ -6,7 +6,7 @@ import com.lmax.disruptor.WorkHandler;
 
 import java.util.UUID;
 
-public class TrandeHandler implements EventHandler<Trade>,WorkHandler<Trade> {
+public class TrandeHandler implements EventHandler<Trade>, WorkHandler<Trade> {
     @Override
     public void onEvent(Trade trade, long l, boolean b) throws Exception {
         this.onEvent(trade);

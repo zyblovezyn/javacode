@@ -9,11 +9,11 @@ import java.io.IOException;
 public class AddUser extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("utf-8");
-        String userName=request.getParameter("username");
+        String userName = request.getParameter("username");
         System.out.println(userName);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        this.doGet(request,response);
+        this.doGet(request, response);
     }
 }

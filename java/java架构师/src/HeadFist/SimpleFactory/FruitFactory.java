@@ -21,7 +21,7 @@ public class FruitFactory {
         }
         return null;*/
 
-        Class fruit=Class.forName("HeadFist.SimpleFactory."+type);
+        Class fruit = Class.forName("HeadFist.SimpleFactory." + type);
         return (Fruit) fruit.newInstance();
 
     }

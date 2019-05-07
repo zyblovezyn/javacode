@@ -11,33 +11,34 @@ public class TradePublisher implements Runnable {
 
     Disruptor<Trade> disruptor;
     private CountDownLatch letch;
-    private static int LOOP=10;
+    private static int LOOP = 10;
 
-    public TradePublisher(CountDownLatch letch,Disruptor<Trade> disruptor){
-        this.letch=letch;
-        this.disruptor=disruptor;
+    public TradePublisher(CountDownLatch letch, Disruptor<Trade> disruptor) {
+        this.letch = letch;
+        this.disruptor = disruptor;
     }
 
     @Override
     public void run() {
-        TradeEventTranslator tradeEventTranslator=
+        TradeEventTranslator tradeEventTranslator =
                 new TradeEventTranslator();
-        for(int i=0;i<LOOP;i++){
+        for (int i = 0; i < LOOP; i++) {
             disruptor.publishEvent(tradeEventTranslator);
         }
         letch.countDown();
     }
 }
 
-class TradeEventTranslator implements EventTranslator<Trade>{
-    private Random random=new Random();
+class TradeEventTranslator implements EventTranslator<Trade> {
+    private Random random = new Random();
+
     @Override
     public void translateTo(Trade event, long sequence) {
-            this.generateTrade(event);
+        this.generateTrade(event);
     }
 
-    private Trade generateTrade(Trade trade){
-        trade.setPrice(random.nextDouble()*9999);
+    private Trade generateTrade(Trade trade) {
+        trade.setPrice(random.nextDouble() * 9999);
         return trade;
     }
 }

@@ -7,9 +7,9 @@ public class MyTask implements Runnable {
     private int id;
     private String name;
 
-    public MyTask(int taskId,String taskName){
-        this.id=taskId;
-        this.name=taskName;
+    public MyTask(int taskId, String taskName) {
+        this.id = taskId;
+        this.name = taskName;
     }
 
     public int getId() {
@@ -30,10 +30,10 @@ public class MyTask implements Runnable {
 
     @Override
     public void run() {
-        try{
-            System.out.println("run taskid="+this.id);
-            Thread.sleep(2*1000);
-        }catch (InterruptedException e){
+        try {
+            System.out.println("run taskid=" + this.id);
+            Thread.sleep(2 * 1000);
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
     }

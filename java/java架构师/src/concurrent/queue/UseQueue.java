@@ -23,21 +23,21 @@ public class UseQueue {
 
         System.out.println("-------------------------------");
         //有界阻塞
-        ArrayBlockingQueue arrayBlockingQueue=new ArrayBlockingQueue(5);
+        ArrayBlockingQueue arrayBlockingQueue = new ArrayBlockingQueue(5);
         try {
-            arrayBlockingQueue.offer("a",2,TimeUnit.SECONDS);
+            arrayBlockingQueue.offer("a", 2, TimeUnit.SECONDS);
             arrayBlockingQueue.add("b");
             arrayBlockingQueue.add("c");
             arrayBlockingQueue.add("d");
             arrayBlockingQueue.add("e");
-            System.out.println(arrayBlockingQueue.offer("f",2,TimeUnit.SECONDS));
+            System.out.println(arrayBlockingQueue.offer("f", 2, TimeUnit.SECONDS));
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
         System.out.println("--------------------------");
 
-        SynchronousQueue<String> sq=new SynchronousQueue<>();
+        SynchronousQueue<String> sq = new SynchronousQueue<>();
         //sq.add("cdfcd"); 不允许加元素
 
         /*阻塞的线程安全的队列
@@ -56,7 +56,7 @@ public class UseQueue {
                 remove:若队列为空，抛出NoSuchElementException异常。
                 take:若队列为空，发生阻塞，等待有元素。
          */
-        LinkedBlockingQueue<String> linkedBlockingQueue=new LinkedBlockingQueue<>(3);
+        LinkedBlockingQueue<String> linkedBlockingQueue = new LinkedBlockingQueue<>(3);
         /*
         linkedBlockingQueue.add("a");
         linkedBlockingQueue.add("b");

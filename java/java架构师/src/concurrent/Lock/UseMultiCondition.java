@@ -81,47 +81,50 @@ public class UseMultiCondition {
     }
 
     public static void main(String[] args) {
-        final UseMultiCondition useMultiCondition=new UseMultiCondition();
-        Thread t1=new Thread(new Runnable() {
+        final UseMultiCondition useMultiCondition = new UseMultiCondition();
+        Thread t1 = new Thread(new Runnable() {
             @Override
             public void run() {
                 useMultiCondition.m1();
             }
-        },"t1");
-        Thread t2=new Thread(new Runnable() {
+        }, "t1");
+        Thread t2 = new Thread(new Runnable() {
             @Override
             public void run() {
                 useMultiCondition.m2();
             }
-        },"t2");
+        }, "t2");
 
-        Thread t3=new Thread(new Runnable() {
+        Thread t3 = new Thread(new Runnable() {
             @Override
             public void run() {
                 useMultiCondition.m3();
             }
-        },"t3");
-        Thread t4=new Thread(new Runnable() {
+        }, "t3");
+        Thread t4 = new Thread(new Runnable() {
             @Override
             public void run() {
                 useMultiCondition.m4();
             }
-        },"t4");
+        }, "t4");
 
-        Thread t5=new Thread(new Runnable() {
+        Thread t5 = new Thread(new Runnable() {
             @Override
             public void run() {
                 useMultiCondition.m5();
             }
-        },"t5");
+        }, "t5");
 
         // 保证t1 t2 t3 限先执行
-        t1.start();t2.start();t3.start();
+        t1.start();
+        t2.start();
+        t3.start();
         try {
             Thread.sleep(100);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        t4.start();t5.start();
+        t4.start();
+        t5.start();
     }
 }

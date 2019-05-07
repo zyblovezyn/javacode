@@ -1,6 +1,6 @@
 
 public class Apple implements HeadFist.SimpleFactory.Fruit {
-    public void get(){
+    public void get() {
         System.out.println("采集苹果");
     }
 }

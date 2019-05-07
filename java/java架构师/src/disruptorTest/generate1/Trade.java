@@ -7,7 +7,7 @@ public class Trade {
     private String id;
     private String name;
     private double price;
-    private AtomicInteger count=new AtomicInteger(0);
+    private AtomicInteger count = new AtomicInteger(0);
 
     public String getId() {
         return id;

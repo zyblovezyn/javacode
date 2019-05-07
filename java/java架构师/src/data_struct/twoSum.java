@@ -6,8 +6,8 @@ import java.util.Map;
 public class twoSum {
 
     public static void main(String[] args) {
-        int[] numbs={2,4,12,15};
-        int target=6;
+        int[] numbs = {2, 4, 12, 15};
+        int target = 6;
         int[] ints = twoSum(numbs, target);
     }
 
@@ -17,7 +17,7 @@ public class twoSum {
         }
         int[] result = new int[2];
         Map<Integer, Integer> map = new HashMap<>(nums.length);
-        for(int i = 0; i < nums.length; i++) {
+        for (int i = 0; i < nums.length; i++) {
             Integer m = target - nums[i];
             Integer index = map.get(m);
             if (index != null) {

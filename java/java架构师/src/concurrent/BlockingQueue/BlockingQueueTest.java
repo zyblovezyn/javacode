@@ -10,7 +10,7 @@ public class BlockingQueueTest {
         Productor p3 = new Productor(queue);
 
         Cosumer c1 = new Cosumer(queue);
-        ExecutorService service=Executors.newCachedThreadPool();
+        ExecutorService service = Executors.newCachedThreadPool();
 
         service.execute(p1);
         service.execute(p2);
@@ -18,7 +18,7 @@ public class BlockingQueueTest {
         service.execute(c1);
 
         try {
-            Thread.sleep(10*1000);
+            Thread.sleep(10 * 1000);
             p1.wait();
             p2.wait();
             p3.wait();

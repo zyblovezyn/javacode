@@ -20,7 +20,7 @@ public class UseThreadPoolExecutor2 implements Runnable {
     public static void main(String[] args) {
         BlockingQueue<Runnable> queue =
                 new LinkedBlockingQueue<>();
-                //new ArrayBlockingQueue<>(10);
+        //new ArrayBlockingQueue<>(10);
 
         ExecutorService executorService = new ThreadPoolExecutor(
                 5,
