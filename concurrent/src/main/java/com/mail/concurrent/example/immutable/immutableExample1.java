@@ -21,7 +21,6 @@ public class immutableExample1 {
 
     public static void main(String[] args) {
         map.put(1,3);
-
         log.info("{}",map.get(1));
     }
 //    private void test(final int a){
