@@ -11,13 +11,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="immutableExample1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/immutable/immutableExample1.java">
+      <file leaf-file-name="CountDownLetchExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/aqs/CountDownLetchExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="168">
+              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -25,68 +28,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="immutableExample2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/immutable/immutableExample2.java">
+      <file leaf-file-name="CountExample2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/count/CountExample2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="immutableExample3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/immutable/immutableExample3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RequestHolder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/threadLocal/RequestHolder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-              <folding>
-                <element signature="e#152#158#0" expanded="true" />
-                <element signature="e#198#199#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/HttpFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="15" column="90" selection-start-line="15" selection-start-column="90" selection-end-line="15" selection-end-column="90" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConcurrentApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/ConcurrentApplication.java">
+      <file leaf-file-name="CountExample1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/count/CountExample1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="httpInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/httpInterceptor.java">
+      <file leaf-file-name="LockExample1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/lock/LockExample1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="146">
+              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LockExample2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/lock/LockExample2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,33 +67,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImmutableList.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/19.0/guava-19.0.jar!/com/google/common/collect/ImmutableList.class">
+      <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Object.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-504">
-              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Collections.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Collections.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-688">
-              <caret line="1443" column="8" selection-start-line="1443" selection-start-column="8" selection-end-line="1443" selection-end-column="8" />
+            <state relative-caret-position="197">
+              <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
               <folding>
-                <element signature="e#59713#59714#0" expanded="true" />
-                <element signature="e#59760#59761#0" expanded="true" />
+                <element signature="e#10065#10066#0" expanded="true" />
+                <element signature="e#10148#10149#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1176">
-              <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+            <state relative-caret-position="197">
+              <caret line="2896" column="18" selection-start-line="2896" selection-start-column="18" selection-end-line="2896" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReentrantLock.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="255" column="11" selection-start-line="255" selection-start-column="11" selection-end-line="255" selection-end-column="11" />
+              <folding>
+                <element signature="e#8176#8177#0" expanded="true" />
+                <element signature="e#8216#8217#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CyclicBarrierExample3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/aqs/CyclicBarrierExample3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SemaphoreExample1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/aqs/SemaphoreExample1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -142,38 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/annotation/ThreadSafe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/annotation/NotThreadSafe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/annotation/Recomment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/annotation/NotRecomment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/annotation/TestController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/TestController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/COncurrencyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/ConcurrencyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/count/ConcurrencyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/count/demo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/count/demo1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/count/demo2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/atomicExample/AtomicLongExample1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/atomicExample/AtomicLongExample2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/atomicExample/AtomicLongExample3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/atomicExample/AtomicLongExample4.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/atomicExample/AtomicLongExample5.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/atomicExample/AtomicLongExample6.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/synchronizedExample/syncExample1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/synchronizedExample/syncExample2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/count/demo3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/Lock/UseCondition.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/base/LongEventProducerWithTranslator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/myObject/MyObject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/HeadFist/SimpleFactory/Apple.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/base/LongEventMain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/GeneticsAndCollection/setAndMap/HashSetDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/GeneticsAndCollection/setAndMap/HashSetDemo2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/GeneticsAndCollection/setAndMap/HashSet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/GeneticsAndCollection/setAndMap/HashSetdemo3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/GeneticsAndCollection/setAndMap/CollectionsDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/count/CountExample3.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/count/CountExample4.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/publish/UnsafePulic.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/publish/Escape.java" />
@@ -184,7 +147,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/singleton/SingletonExample5.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/singleton/SingletonExample6.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/singleton/SingletonExample7.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/immutable/immutableExample1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/immutable/immutableExample2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/immutable/immutableExample3.java" />
@@ -192,6 +154,40 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/HttpFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/httpInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/ConcurrentApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/ConcurrencyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/GeneticsAndCollection/setAndMap/COllectionsDemo1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/commonUnsafe/StringExample1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/commonUnsafe/DateFormateExample1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/commonUnsafe/StringExample2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/commonUnsafe/dateFormateExample1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/commonUnsafe/dateFormateExample2.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/commonUnsafe/dateFormateExample3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/commonUnsafe/ArrayListExample1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/commonUnsafe/HashSetExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/commonUnsafe/HashSMapExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/commonUnsafe/HashMapExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/syncContainer/VectorExample1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/syncContainer/VectorExample2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/syncContainer/HashTableExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/syncContainer/CollectionsExample1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/syncContainer/CollectionsExample2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/syncContainer/CollectionsExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/syncContainer/VectorExample3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/concurrentContainer/CopyOnWriteExample1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/concurrentContainer/CopyOnWriteArraySetExample1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/concurrentContainer/CopyOnWriteSkipListSetExample1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/concurrentContainer/ConcurrentHashMapExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/concurrentContainer/ConcurrentSkipListMapExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/aqs/CountDownLetchExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/aqs/CountDownLetchExample2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/aqs/SemaphoreExample1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/aqs/SemaphoreExample2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/aqs/CyclicBarrierExample1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/aqs/CyclicBarrierExample2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/aqs/CyclicBarrierExample3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/lock/LockExample1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/lock/LockExample2.java" />
       </list>
     </option>
   </component>
@@ -219,18 +215,21 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="995" />
-    <option name="y" value="72" />
-    <option name="width" value="1143" />
+    <option name="x" value="960" />
+    <option name="width" value="961" />
     <option name="height" value="1032" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -299,6 +298,39 @@
               <item name="concurrent" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mail" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mail" type="462c0819:PsiDirectoryNode" />
+              <item name="GeneticsAndCollection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mail" type="462c0819:PsiDirectoryNode" />
+              <item name="GeneticsAndCollection" type="462c0819:PsiDirectoryNode" />
+              <item name="setAndMap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -309,7 +341,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -322,18 +353,18 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.mail.concurrent" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.mail.concurrent.example.immutable" />
-      <recent name="com.mail.concurrent.example.singleton" />
-      <recent name="com.mail.concurrent.example.count" />
-      <recent name="com.mail.concurrent.example.synchronizedExample" />
-      <recent name="com.mail.concurrent.example.atomicExample" />
+      <recent name="com.mail.concurrent.example.lock" />
+      <recent name="com.mail.concurrent.example.aqs" />
+      <recent name="com.mail.concurrent.example.concurrentContainer" />
+      <recent name="com.mail.concurrent.example.syncContainer" />
+      <recent name="com.mail.concurrent.example.commonUnsafe" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\学习\java\javacode\concurrent\src\main\java\com\mail\GeneticsAndCollection\setAndMap" />
@@ -352,64 +383,64 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.immutableExample3">
-    <configuration name="Escape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mail.concurrent.example.publish.Escape" />
+  <component name="RunManager" selected="Application.LockExample1">
+    <configuration name="CyclicBarrierExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mail.concurrent.example.aqs.CyclicBarrierExample1" />
       <module name="concurrent" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mail.concurrent.example.publish.*" />
+          <option name="PATTERN" value="com.mail.concurrent.example.aqs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SingletonExample6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mail.concurrent.example.singleton.SingletonExample6" />
+    <configuration name="CyclicBarrierExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mail.concurrent.example.aqs.CyclicBarrierExample2" />
       <module name="concurrent" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mail.concurrent.example.singleton.*" />
+          <option name="PATTERN" value="com.mail.concurrent.example.aqs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="CyclicBarrierExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mail.concurrent.example.aqs.CyclicBarrierExample3" />
+      <module name="concurrent" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mail.concurrent.example.aqs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="LockExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mail.concurrent.example.lock.LockExample1" />
+      <module name="concurrent" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mail.concurrent.example.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SemaphoreExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mail.concurrent.example.aqs.SemaphoreExample2" />
+      <module name="concurrent" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mail.concurrent.example.aqs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="immutableExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mail.concurrent.example.immutable.immutableExample1" />
-      <module name="concurrent" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mail.concurrent.example.immutable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="immutableExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mail.concurrent.example.immutable.immutableExample2" />
-      <module name="concurrent" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mail.concurrent.example.immutable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="immutableExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mail.concurrent.example.immutable.immutableExample3" />
-      <module name="concurrent" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mail.concurrent.example.immutable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -455,19 +486,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.ConcurrentApplication" />
-      <item itemvalue="Application.Escape" />
-      <item itemvalue="Application.SingletonExample6" />
-      <item itemvalue="Application.immutableExample1" />
-      <item itemvalue="Application.immutableExample2" />
-      <item itemvalue="Application.immutableExample3" />
+      <item itemvalue="Application.SemaphoreExample2" />
+      <item itemvalue="Application.CyclicBarrierExample1" />
+      <item itemvalue="Application.CyclicBarrierExample2" />
+      <item itemvalue="Application.CyclicBarrierExample3" />
+      <item itemvalue="Application.LockExample1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.immutableExample3" />
-        <item itemvalue="Application.immutableExample2" />
-        <item itemvalue="Application.immutableExample1" />
-        <item itemvalue="Application.SingletonExample6" />
-        <item itemvalue="Application.Escape" />
+        <item itemvalue="Application.LockExample1" />
+        <item itemvalue="Application.CyclicBarrierExample3" />
+        <item itemvalue="Application.CyclicBarrierExample2" />
+        <item itemvalue="Application.CyclicBarrierExample1" />
+        <item itemvalue="Application.SemaphoreExample2" />
       </list>
     </recent_temporary>
   </component>
@@ -489,19 +520,20 @@
       <workItem from="1557396264308" duration="638000" />
       <workItem from="1557396962650" duration="12844000" />
       <workItem from="1557412420048" duration="117000" />
-      <workItem from="1557502242895" duration="2861000" />
+      <workItem from="1557502242895" duration="3119000" />
+      <workItem from="1557542393894" duration="21403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27848000" />
+    <option name="totallyTimeSpent" value="49509000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="995" y="72" width="1143" height="1032" extended-state="0" />
+    <frame x="960" y="0" width="961" height="1032" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50106156" side_tool="true" weight="0.27098322" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -512,16 +544,16 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.406682" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32949308" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.31924883" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26036867" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893844" weight="0.281106" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.6232719" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5102222" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.38282079" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -546,306 +578,16 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/atomicExample/AtomicLongExample2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/atomicExample/AtomicLongExample4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/atomicExample/AtomicLongExample3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/atomicExample/AtomicLongExample5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HELP.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/atomicExample/AtomicLongExample6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/synchronizedExample/syncExample1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/synchronizedExample/syncExample2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/Lock/UseCondition.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/annotation/NotRecomment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/test01/LongEventProducerWithTranslator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/myObject/MyObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/HeadFist/SimpleFactory/Banana.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/HeadFist/SimpleFactory/Fruit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/HeadFist/SimpleFactory/FruitFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/HeadFist/SimpleFactory/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/HeadFist/SimpleFactory/Apple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/base/LongEventMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/data_struct/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/test01/MyThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/ConcurrencyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="224" column="10" selection-start-line="224" selection-start-column="10" selection-end-line="224" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/GeneticsAndCollection/setAndMap/HashSetDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="611" selection-start-line="611" selection-end-line="611" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/GeneticsAndCollection/setAndMap/HashSetDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1023">
-          <caret line="51" column="46" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="219" selection-start-line="219" selection-end-line="219" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/GeneticsAndCollection/setAndMap/HashSetdemo3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="76" column="4" lean-forward="true" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/GeneticsAndCollection/setAndMap/CollectionsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/count/CountExample3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/count/CountExample4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/publish/UnsafePulic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/publish/Escape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/singleton/SingletonExample1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/singleton/SingletonExample3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/singleton/SingletonExample4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/singleton/SingletonExample5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/singleton/SingletonExample6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-          <folding>
-            <element signature="e#419#420#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/singleton/SingletonExample2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/singleton/SingletonExample7.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding>
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/immutable/immutableExample1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
+        <state relative-caret-position="357">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -855,7 +597,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-688">
+        <state relative-caret-position="28182">
           <caret line="1443" column="8" selection-start-line="1443" selection-start-column="8" selection-end-line="1443" selection-end-column="8" />
           <folding>
             <element signature="e#59713#59714#0" expanded="true" />
@@ -873,7 +615,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/19.0/guava-19.0.jar!/com/google/common/collect/ImmutableList.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-504">
+        <state relative-caret-position="315">
           <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
         </state>
       </provider>
@@ -887,23 +629,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/threadLocal/RequestHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="147">
           <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding>
-            <element signature="e#152#158#0" expanded="true" />
             <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
             <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
             <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/HttpFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
+        <state relative-caret-position="210">
           <caret line="15" column="90" selection-start-line="15" selection-start-column="90" selection-end-line="15" selection-end-column="90" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -913,18 +654,510 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/httpInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/ConcurrentApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/ConcurrencyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#1324#1325#0" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/GeneticsAndCollection/setAndMap/COllectionsDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/commonUnsafe/StringExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
+            <element signature="e#1129#1130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/commonUnsafe/StringExample2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/commonUnsafe/dateFormateExample1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/commonUnsafe/dateFormateExample2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/ConcurrentApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding>
+            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="65" column="33" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/commonUnsafe/dateFormateExample3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/commonUnsafe/ArrayListExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#679#688#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/commonUnsafe/HashSetExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#530#539#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/commonUnsafe/HashMapExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding>
+            <element signature="e#551#568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/syncContainer/VectorExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+          <folding>
+            <element signature="e#677#686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="96" column="13" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
+          <folding>
+            <element signature="e#5774#5775#0" expanded="true" />
+            <element signature="e#5798#5799#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/syncContainer/VectorExample2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+          <folding>
+            <element signature="e#467#698#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#712#930#0" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/syncContainer/HashTableExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding>
+            <element signature="e#574#592#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/syncContainer/CollectionsExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="37" column="40" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/syncContainer/CollectionsExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/syncContainer/VectorExample3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="237" column="13" selection-start-line="237" selection-start-column="13" selection-end-line="237" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/concurrentContainer/CopyOnWriteExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/syncContainer/CollectionsExample2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/concurrentContainer/CopyOnWriteArraySetExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding>
+            <element signature="e#430#439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/CopyOnWriteArraySet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="155" column="22" lean-forward="true" selection-start-line="155" selection-start-column="22" selection-end-line="155" selection-end-column="22" />
+          <folding>
+            <element signature="e#2736#2737#0" expanded="true" />
+            <element signature="e#2786#2787#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="198" column="23" selection-start-line="198" selection-start-column="23" selection-end-line="198" selection-end-column="23" />
+          <folding>
+            <element signature="docComment;class#CopyOnWriteArrayList#0" />
+            <element signature="e#3063#3102#0" />
+            <element signature="e#3170#3224#0" />
+            <element signature="e#3277#3391#0" />
+            <element signature="e#3457#3491#0" />
+            <element signature="e#3560#3601#0" />
+            <element signature="e#3682#3980#0" />
+            <element signature="e#3682#4502#0" />
+            <element signature="e#4508#4750#0" />
+            <element signature="e#4886#5007#0" />
+            <element signature="e#5077#5220#0" />
+            <element signature="e#5291#5348#0" />
+            <element signature="e#5472#5807#0" />
+            <element signature="e#6245#6456#0" />
+            <element signature="e#6245#6844#0" />
+            <element signature="e#6850#7277#0" />
+            <element signature="e#7431#7463#0" />
+            <element signature="e#7431#7601#0" />
+            <element signature="e#7607#8403#0" />
+            <element signature="e#7607#8551#0" />
+            <element signature="e#8557#8589#0" />
+            <element signature="e#8557#8736#0" />
+            <element signature="e#8742#9602#0" />
+            <element signature="e#8742#9741#0" />
+            <element signature="e#9747#9895#0" />
+            <element signature="e#9747#10303#0" />
+            <element signature="e#10309#10849#0" />
+            <element signature="e#10309#10984#0" />
+            <element signature="e#10990#12999#0" />
+            <element signature="e#10990#13412#0" />
+            <element signature="e#13569#13663#0" />
+            <element signature="e#13744#13919#0" />
+            <element signature="e#13744#14603#0" />
+            <element signature="e#15236#15525#0" />
+            <element signature="e#15236#16494#0" />
+            <element signature="e#16500#16786#0" />
+            <element signature="e#16500#17577#0" />
+            <element signature="e#17583#18256#0" />
+            <element signature="e#17583#18467#0" />
+            <element signature="e#18473#18606#0" />
+            <element signature="e#18473#19850#0" />
+            <element signature="e#19856#20519#0" />
+            <element signature="e#19856#21435#0" />
+            <element signature="e#21441#21616#0" />
+            <element signature="e#21441#21809#0" />
+            <element signature="e#21815#21934#0" />
+            <element signature="e#21815#22819#0" />
+            <element signature="e#22825#23234#0" />
+            <element signature="e#22825#23505#0" />
+            <element signature="e#23511#24427#0" />
+            <element signature="e#23511#25342#0" />
+            <element signature="e#25348#26261#0" />
+            <element signature="e#25348#27175#0" />
+            <element signature="e#27181#27650#0" />
+            <element signature="e#27181#28589#0" />
+            <element signature="e#28595#28712#0" />
+            <element signature="e#28595#28919#0" />
+            <element signature="e#28925#29363#0" />
+            <element signature="e#28925#30174#0" />
+            <element signature="e#30180#30999#0" />
+            <element signature="e#30180#32195#0" />
+            <element signature="e#32201#32539#0" />
+            <element signature="e#32545#33409#0" />
+            <element signature="e#33415#34037#0" />
+            <element signature="e#34043#34488#0" />
+            <element signature="e#34494#34848#0" />
+            <element signature="e#34494#35227#0" />
+            <element signature="e#35233#35510#0" />
+            <element signature="e#35233#36083#0" />
+            <element signature="e#36089#36584#0" />
+            <element signature="e#36671#37529#0" />
+            <element signature="e#36671#38039#0" />
+            <element signature="e#38045#38245#0" />
+            <element signature="e#38045#38564#0" />
+            <element signature="e#38570#39009#0" />
+            <element signature="e#39107#39434#0" />
+            <element signature="e#39540#39929#0" />
+            <element signature="e#39540#40220#0" />
+            <element signature="e#40226#40778#0" />
+            <element signature="e#40226#40937#0" />
+            <element signature="e#40943#43440#0" />
+            <element signature="e#41014#41042#0" />
+            <element signature="e#41092#41159#0" />
+            <element signature="e#41197#41335#0" />
+            <element signature="e#41517#41707#0" />
+            <element signature="e#41717#41915#0" />
+            <element signature="e#42073#42285#0" />
+            <element signature="e#42391#42600#0" />
+            <element signature="e#42706#42915#0" />
+            <element signature="e#43021#43434#0" />
+            <element signature="e#43446#44144#0" />
+            <element signature="e#43446#44618#0" />
+            <element signature="e#44624#45440#0" />
+            <element signature="e#44624#58465#0" />
+            <element signature="e#45708#45986#0" />
+            <element signature="e#45996#46196#0" />
+            <element signature="e#46206#46477#0" />
+            <element signature="e#46487#46893#0" />
+            <element signature="e#46903#47218#0" />
+            <element signature="e#47228#47487#0" />
+            <element signature="e#47497#47969#0" />
+            <element signature="e#47979#48335#0" />
+            <element signature="e#48345#48771#0" />
+            <element signature="e#48781#48971#0" />
+            <element signature="e#48981#49293#0" />
+            <element signature="e#49303#49830#0" />
+            <element signature="e#49840#50362#0" />
+            <element signature="e#50372#50949#0" />
+            <element signature="e#50959#51946#0" />
+            <element signature="e#51956#52789#0" />
+            <element signature="e#52799#54512#0" />
+            <element signature="e#54522#56234#0" />
+            <element signature="e#56244#57986#0" />
+            <element signature="e#57996#58458#0" />
+            <element signature="e#58471#60143#0" />
+            <element signature="e#58660#58845#0" />
+            <element signature="e#58940#59097#0" />
+            <element signature="e#59198#59367#0" />
+            <element signature="e#59852#60137#0" />
+            <element signature="initializer##0;class#CopyOnWriteArrayList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/concurrentContainer/CopyOnWriteSkipListSetExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/concurrentContainer/ConcurrentHashMapExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#443#461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/concurrentContainer/ConcurrentSkipListMapExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="e#441#459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/aqs/SemaphoreExample2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/aqs/CountDownLetchExample2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/aqs/CyclicBarrierExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/aqs/CyclicBarrierExample2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/aqs/CyclicBarrierExample3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/aqs/SemaphoreExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/aqs/CountDownLetchExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/count/CountExample2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/count/CountExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="255" column="11" selection-start-line="255" selection-start-column="11" selection-end-line="255" selection-end-column="11" />
+          <folding>
+            <element signature="e#8176#8177#0" expanded="true" />
+            <element signature="e#8216#8217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/lock/LockExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="2896" column="18" selection-start-line="2896" selection-start-column="18" selection-end-line="2896" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/concurrent/example/lock/LockExample2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,14 +1,20 @@
+package com.mail.GeneticsAndCollection.setAndMap;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 /*
-	Ä£Äâ¶·µØÖ÷·¢ÅÆ 
-    ÂòÅÆ
-    Ï´ÅÆ
-    ·¢ÅÆ
+	Ä£ï¿½â¶·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 
+    ï¿½ï¿½ï¿½ï¿½
+    Ï´ï¿½ï¿½
+    ï¿½ï¿½ï¿½ï¿½
 */
 class CollectionsTest 
 {
 	public static void main(String[] args) 
 	{
-        // ÂòÅÆ
+        // ï¿½ï¿½ï¿½ï¿½
         ArrayList<String> box=new ArrayList<String>();
        
         
@@ -21,28 +27,28 @@ class CollectionsTest
              arr3.add(String.valueOf(i));
 		       // System.out.println(String.valueOf(i));
         }
-         // »¨É«
-        String[] arr={"ºìÌÒ","ºÚÌÒ","·½¿é","Ã·»¨"};
-        // Ìí¼ÓÃ¿Ò»ÕÅÅÆ
+         // ï¿½ï¿½É«
+        String[] arr={"ï¿½ï¿½ï¿½ï¿½","ï¿½ï¿½ï¿½ï¿½","ï¿½ï¿½ï¿½ï¿½","Ã·ï¿½ï¿½"};
+        // ï¿½ï¿½ï¿½Ã¿Ò»ï¿½ï¿½ï¿½ï¿½
         for(int i=0;i<13;i++){
             for(int j=0;j<4;j++){
                 box.add(arr[j]+arr3.get(i).toString());
             }
         }
-        box.add("´óÍõ");
-        box.add("Ð¡Íõ");
-        //Ï´ÅÆ
-        Collections.shuffle(box);        
+        box.add("ï¿½ï¿½ï¿½ï¿½");
+        box.add("Ð¡ï¿½ï¿½");
+        //Ï´ï¿½ï¿½
+        Collections.shuffle(box);
         //System.out.println(box);      
         
-        //·¢ÅÆ
+        //ï¿½ï¿½ï¿½ï¿½
         ArrayList<String> A=new ArrayList<String>();
         ArrayList<String> B=new ArrayList<String>();
         ArrayList<String> C=new ArrayList<String>();
         
         for(int i=0;i<box.size()-3;i++){
             /*
-            Ä£3ÔËËã            
+            Ä£3ï¿½ï¿½ï¿½ï¿½            
             */
             int selected=i%3;
             if(selected==0){
