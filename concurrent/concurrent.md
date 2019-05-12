@@ -108,7 +108,51 @@
 	提供了一个Condition类。可以分组唤醒需要唤醒的线程
 	提供中断等待锁的线程的机制，lock.lockInterruptibly()
 		
+## FutureTask 可以得到返回值
+
+## Fork/Join 框架 双端队列  一端先执行就会从双端队列的尾部窃取一个任务执行
+
+## BlockingQueue 主要用于生产者消费者模式
+### ArrayBlockingQueue 有界阻塞队列 FIFO
+### DelayQueue 实现delay接口 FIFO
+### LinkedBlockingQueue FIFO
+### PriorityBlockingQueue 可以插入null 
+### SynchronousQueue 只能存放一个元素
+
+# 线程池
+## new Thread
+	缺点：每次new Thread新建对象 性能差
+	线程缺乏统一管理，可能无限制的新建线程，相互竞争，有可能占用过多系统资源导致死机或OOM
+	缺少更多功能，如更多执行、定期执行、线程中断
+
+	线程池的有点：重用线程 控制并发数 避免阻塞避免进竞争 提供定时执行 定期执行 单线程 并发数控制等功能
+## ThreadPoolExecutor
+	execute() : 提交任务交给线程池去执行
+	submit() : 提交任务，能够返回结果 execute+Future
+	shutdowm() 关闭线程池，等待任务都执行完
+	shutdownNow():关闭线程池，不等待任务执行完
+	getTaskCount():线程池已执行和未执行的任务总数
+	getCompletedTaskCount():已完成的任务数量
+	getPoolSize():线程池当前的线程数量
+	getActiveCount()：当前线程池中正在执行任务的线程数量
+## 线程池 - Executor框架接口
+	Executoors.newCachedThreadPool
+	Executoors.newFixedThreadPool
+	Executoors.newScheduledThreadPool
+	Executoors.newSingleThreadPool
+## 线程池 - 合理配置
+	CPU密集型任务，就需要压榨CPU，参数可以设置为NCPU+1
+	IO密集型，参数可以设置为2*NCPU
+## 扩容
+	垂直扩容(纵向扩容):提高系统部件能力
+	水平扩容(横向扩容):增加更多系统成员来完成任务
 	
+
+
+
+
+
+
 
 
 
