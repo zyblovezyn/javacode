@@ -11,6 +11,9 @@ public class ConcurrentApplicationTests {
 
     @Test
     public void contextLoads() {
+        String s="hello world";
+        s.toCharArray();
+        System.out.println(s);
     }
 
 }
