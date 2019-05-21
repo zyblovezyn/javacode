@@ -7,3 +7,5 @@ public class LongEventHandle implements EventHandler<LongEvent> {
         System.out.println(longEvent.getValue());
     }
 }
+
+

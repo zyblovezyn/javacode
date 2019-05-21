@@ -4,6 +4,13 @@ class  Sort
 	public static void main(String[] args) 
 	{
 		System.out.println("Hello World!");
+		int[] arr=new int[]{5,4,3,6,7,8,1,9};
+		//bubbleSort(arr);
+		//quickSort(arr, 0, arr.length-1);
+		insertionSort(arr);
+		for (int var : arr) {
+			System.out.println(var);
+		}
 	}
 
 	// 冒泡排序O(N^2)
@@ -19,6 +26,31 @@ class  Sort
 			}
 		}
 	}
+	
+	// 快速排序
+	public static void quickSort(int[] arr,int start,int end){
+		if(start<end){
+		// 基准数
+				int mid=arr[start];
+				int low=start;
+				int high =end;
+				// 循环
+				while(low<high){
+					while(low<high&&mid<=arr[high]){
+						high--;
+					}
+					arr[low]=arr[high];
+					while(low<high&&arr[low]<=mid){
+						low++;
+					}
+					arr[high]=arr[low];				
+				}
+				arr[low]=mid;
+				quickSort(arr, start, low);
+				quickSort(arr, low+1, high);
+		}
+	}
+	
 	// 选择排序O(N^2)
 	public static void selectionSort(int[] arr){
 		int len=arr.length;
@@ -48,11 +80,12 @@ class  Sort
  				arr[preIndex + 1] = arr[preIndex];
             	preIndex--;
 			}
-			 arr[preIndex + 1] = current;
+	 		arr[preIndex + 1] = current;
 		}
 	}
+
 	// 修改于 2019-03-06
-public static void shellSort(arr) {
+	public static void shellSort(int[] arr) {
     var len = arr.length;
     for (var gap = Math.floor(len / 2); gap > 0; gap = Math.floor(gap / 2)) {
         // 注意：这里和动图演示的不一样，动图是分组执行，实际操作是多个分组交替执行
@@ -66,6 +99,6 @@ public static void shellSort(arr) {
             arr[j] = current;
         }
     }
-    return arr;
-}
+    return ;
+	}
 }

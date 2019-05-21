@@ -1,5 +1,7 @@
 package com.mail.disruptorTest.distuptorinuse;
 
+import java.util.Queue;
+
 public class MyInParkingDataEvent {
     private String carLicense; // 车牌号
 
@@ -11,3 +13,4 @@ public class MyInParkingDataEvent {
         this.carLicense = carLicense;
     }
 }
+  
