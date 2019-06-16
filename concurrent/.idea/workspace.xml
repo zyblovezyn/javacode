@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c1451a5-d97e-4830-a649-4eac7d4a610b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mail/spring/TxConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mail/spring/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mail/spring/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mail/spring/TxConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mail/JVM/DieLikeDog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/concurrent.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mail/GeneticsAndCollection/chapter1/ToListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mail/GeneticsAndCollection/chapter1/ToListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mail/data_struct/groupstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mail/data_struct/groupstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mail/data_struct/reversewords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mail/data_struct/reversewords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mail/data_struct/uniqueemail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mail/data_struct/uniqueemail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hello-spring-cloud/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-spring-cloud/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java/hello_maven/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../java/hello_maven/.idea/encodings.xml" beforeDir="false" />
@@ -45,59 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TxConfig.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/spring/TxConfig.java">
+      <file leaf-file-name="DieLikeDog.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/JVM/DieLikeDog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="14" column="5" selection-start-line="13" selection-end-line="43" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="114" column="21" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TxConfigTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/mail/spring/TxConfigTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/spring/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/spring/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="189">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -111,8 +54,8 @@
         <option value="package-info" />
         <option value="HTML File" />
         <option value="myCodeTemplate" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -127,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/netty/second/MyClientHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mail/netty/third/MyCharInitinalizer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mail/netty/third/MyChatInitinalizer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mail/netty/third/MyChatServerInitinalizer.java" />
@@ -178,6 +120,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mail/spring/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mail/spring/TxConfig.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mail/spring/TxConfigTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/JVM/DieLikeDog.java" />
       </list>
     </option>
   </component>
@@ -225,8 +168,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="912" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="400" />
+    <option name="y" value="48" />
     <option name="width" value="926" />
     <option name="height" value="1032" />
   </component>
@@ -238,7 +182,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -289,7 +233,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="mail" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="JVM" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
@@ -340,7 +284,7 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -361,7 +305,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -403,14 +347,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TxConfigTest.test01">
-    <configuration name="ToListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mail.GeneticsAndCollection.chapter1.ToListTest" />
+  <component name="RunManager" selected="Application.DieLikeDog">
+    <configuration name="DieLikeDog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mail.JVM.DieLikeDog" />
       <module name="concurrent" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="-Xmx1G -Xms512m -Xss512m" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mail.GeneticsAndCollection.chapter1.*" />
+          <option name="PATTERN" value="com.mail.JVM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -540,21 +485,21 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.ConcurrentApplication" />
       <item itemvalue="JUnit.TTest" />
-      <item itemvalue="Application.ToListTest" />
+      <item itemvalue="Spring Boot.ConcurrentApplication" />
       <item itemvalue="Application.uniqueemail" />
       <item itemvalue="Application.reversewords" />
       <item itemvalue="Application.groupstring" />
+      <item itemvalue="Application.DieLikeDog" />
       <item itemvalue="JUnit.TxConfigTest.test01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DieLikeDog" />
         <item itemvalue="JUnit.TxConfigTest.test01" />
         <item itemvalue="Application.groupstring" />
         <item itemvalue="Application.reversewords" />
         <item itemvalue="Application.uniqueemail" />
-        <item itemvalue="Application.ToListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -602,7 +547,8 @@
       <workItem from="1558960349428" duration="1212000" />
       <workItem from="1559052411034" duration="9276000" />
       <workItem from="1559217929396" duration="615000" />
-      <workItem from="1560598514916" duration="4825000" />
+      <workItem from="1560598514916" duration="5521000" />
+      <workItem from="1560675733015" duration="3081000" />
     </task>
     <servers />
   </component>
@@ -639,10 +585,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162082000" />
+    <option name="totallyTimeSpent" value="165859000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="400" y="48" width="926" height="1032" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -663,12 +609,12 @@
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4984365" weight="0.5239808" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4984365" weight="0.52582157" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="CheckStyle" order="7" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.6207675" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49887133" weight="0.43791723" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49887133" visible="true" weight="0.43722466" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -704,7 +650,6 @@
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.2969871" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.6596244" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49887133" visible="true" weight="0.17083333" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -713,8 +658,9 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" x="1353" y="82" width="508" height="907" id="Structure" order="10" sideWeight="0.5011287" side_tool="true" weight="0.3484375" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.6954023" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.6596244" />
       <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6954023" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -853,30 +799,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/JDK/lambda/FunctionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/base/LongEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/base/LongEventProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/generate1/Trade.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -1152,9 +1074,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#471#472#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1182,16 +1101,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="114" column="21" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/spring/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
+        <state relative-caret-position="399">
           <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1202,17 +1114,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mail/spring/TxConfigTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/spring/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1221,11 +1123,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/spring/TxConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="14" column="5" selection-start-line="13" selection-end-line="43" selection-end-column="1" />
+        <state relative-caret-position="103">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.6.RELEASE/spring-tx-5.1.6.RELEASE.jar!/org/springframework/transaction/annotation/EnableTransactionManagement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/spring/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2394">
+          <caret line="114" column="21" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.6.RELEASE/spring-tx-5.1.6.RELEASE-sources.jar!/org/springframework/transaction/annotation/EnableTransactionManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="138" column="78" selection-start-line="138" selection-start-column="78" selection-end-line="138" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/JVM/DieLikeDog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
