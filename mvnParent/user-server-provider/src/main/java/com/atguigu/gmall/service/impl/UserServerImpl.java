@@ -6,17 +6,23 @@ import com.atguigu.gmall.service.UserServer;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
 import java.util.List;
 
+@com.alibaba.dubbo.config.annotation.Service
 @Service
 public class UserServerImpl implements UserServer {
-
 
     @Resource
     UserAddressMapper userAddressMapper;
 
     @Override
     public List<UserAddress> getUserAddressList(String userid) {
+
+       /* UserAddress userAddress=new UserAddress();
+        List<UserAddress> list=new ArrayList<>();
+        list.add(userAddress);
+        return list;*/
         return userAddressMapper.getUserAddressList(userid);
     }
 }

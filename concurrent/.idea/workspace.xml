@@ -4,7 +4,105 @@
     <list default="true" id="5c1451a5-d97e-4830-a649-4eac7d4a610b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mail/JVM/DieLikeDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mail/JVM/DieLikeDog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-spring-cloud/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-spring-cloud/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/distuptorinuse/MyInParkingDataEventMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/distuptorinuse/MyInParkingDataEventMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__org_springframework_spring_aop_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__org_springframework_spring_beans_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__org_springframework_spring_context_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__org_springframework_spring_core_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__org_springframework_spring_expression_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__org_springframework_spring_test_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaconcurrent/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/javaconcurrent.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/target/classes/com/mmail/concurrent/ConcurrentApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaconcurrent/target/test-classes/com/mmail/concurrent/ConcurrentApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mvnParent/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/.idea/libraries/Maven__org_springframework_spring_aop_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/.idea/libraries/Maven__org_springframework_spring_beans_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/.idea/libraries/Maven__org_springframework_spring_context_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/.idea/libraries/Maven__org_springframework_spring_core_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/.idea/libraries/Maven__org_springframework_spring_expression_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/.idea/libraries/Maven__org_springframework_spring_tx_5_0_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/.idea/libraries/Maven__org_springframework_spring_web_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mvnParent/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/gmall-interface/gmall-interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../mvnParent/gmall-interface/gmall-interface.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/gmall-interface/src/main/java/com/atguigu/gmall/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mvnParent/gmall-interface/src/main/java/com/atguigu/gmall/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/gmall-interface/target/classes/com/atguigu/gmall/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mvnParent/gmall-interface/target/classes/com/atguigu/gmall/service/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/user-server-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mvnParent/user-server-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/user-server-consumer/src/main/java/com/atguigu/gmall/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/user-server-consumer/src/main/java/com/atguigu/gmall/bean/UserAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/user-server-consumer/src/main/java/com/atguigu/gmall/server/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mvnParent/user-server-consumer/src/main/java/com/atguigu/gmall/server/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/user-server-consumer/user-server-consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../mvnParent/user-server-consumer/user-server-consumer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/user-server-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mvnParent/user-server-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/user-server-provider/src/main/java/com/atguigu/gmall/GmallApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/user-server-provider/src/main/java/com/atguigu/gmall/bean/UserAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/user-server-provider/src/main/java/com/atguigu/gmall/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mvnParent/user-server-provider/src/main/java/com/atguigu/gmall/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/user-server-provider/src/main/java/com/atguigu/gmall/service/impl/UserServerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mvnParent/user-server-provider/src/main/java/com/atguigu/gmall/service/impl/UserServerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/user-server-provider/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mvnParent/user-server-provider/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/user-server-provider/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mvnParent/user-server-provider/target/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/user-server-provider/target/classes/com/atguigu/gmall/GmallApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/user-server-provider/target/classes/com/atguigu/gmall/bean/UserAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/user-server-provider/target/classes/com/atguigu/gmall/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mvnParent/user-server-provider/target/classes/com/atguigu/gmall/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/user-server-provider/target/classes/com/atguigu/gmall/service/UserServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/user-server-provider/target/classes/com/atguigu/gmall/service/impl/UserServerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mvnParent/user-server-provider/target/classes/com/atguigu/gmall/service/impl/UserServerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnParent/user-server-provider/user-server-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../mvnParent/user-server-provider/user-server-provider.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-boot-examples" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-examples" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,8 +123,78 @@
       <file leaf-file-name="DieLikeDog.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/JVM/DieLikeDog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+            <state relative-caret-position="252">
+              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyInParkingDataEvent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/distuptorinuse/MyInParkingDataEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TradePublisher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/generate2/TradePublisher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/generate2/main1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+              <folding>
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyInParkingDataEventMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/distuptorinuse/MyInParkingDataEventMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="945">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyInParkingDataEventPublisher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/distuptorinuse/MyInParkingDataEventPublisher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyParkingDataInDbHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/distuptorinuse/MyParkingDataInDbHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyParkingDataSmsHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/distuptorinuse/MyParkingDataSmsHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -88,7 +256,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/distuptorinuse/MyParkingDataInDbHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/distuptorinuse/MyParkingDataToKafkaHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/distuptorinuse/MyParkingDataSmsHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/distuptorinuse/MyInParkingDataEventMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/distuptorinuse/MyInParkingDataEventPublisher.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/base/LongEventFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mail/data_struct/MyQueue.java" />
@@ -106,6 +273,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mail/spring/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mail/spring/TxConfig.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mail/spring/TxConfigTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/distuptorinuse/MyInParkingDataEventMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mail/JVM/DieLikeDog.java" />
       </list>
     </option>
@@ -154,11 +322,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="818" />
-    <option name="y" value="23" />
-    <option name="width" value="926" />
-    <option name="height" value="1032" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -167,7 +335,67 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mail" type="462c0819:PsiDirectoryNode" />
+              <item name="JVM" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -242,6 +470,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="MyInParkingDataEventMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mail.disruptorTest.distuptorinuse.MyInParkingDataEventMain" />
+      <module name="concurrent" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mail.disruptorTest.distuptorinuse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -258,17 +497,6 @@
     </configuration>
     <configuration name="reversewords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mail.data_struct.reversewords" />
-      <module name="concurrent" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mail.data_struct.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="uniqueemail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mail.data_struct.uniqueemail" />
       <module name="concurrent" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -369,19 +597,19 @@
     <list>
       <item itemvalue="JUnit.TTest" />
       <item itemvalue="Spring Boot.ConcurrentApplication" />
-      <item itemvalue="Application.uniqueemail" />
       <item itemvalue="Application.reversewords" />
       <item itemvalue="Application.groupstring" />
       <item itemvalue="Application.DieLikeDog" />
       <item itemvalue="JUnit.TxConfigTest.test01" />
+      <item itemvalue="Application.MyInParkingDataEventMain" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.DieLikeDog" />
+        <item itemvalue="Application.MyInParkingDataEventMain" />
         <item itemvalue="JUnit.TxConfigTest.test01" />
         <item itemvalue="Application.groupstring" />
         <item itemvalue="Application.reversewords" />
-        <item itemvalue="Application.uniqueemail" />
       </list>
     </recent_temporary>
   </component>
@@ -433,6 +661,8 @@
       <workItem from="1560675733015" duration="3081000" />
       <workItem from="1560693360761" duration="1355000" />
       <workItem from="1560775026286" duration="320000" />
+      <workItem from="1560852713328" duration="925000" />
+      <workItem from="1560940848793" duration="1442000" />
     </task>
     <servers />
   </component>
@@ -469,11 +699,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167534000" />
+    <option name="totallyTimeSpent" value="169901000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="818" y="23" width="926" height="1032" extended-state="0" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
@@ -488,16 +717,17 @@
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.6942446" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.31602708" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4984365" weight="0.3681055" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4984365" weight="0.36794582" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="CheckStyle" order="7" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.6207675" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49887133" weight="0.43722466" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49887133" visible="true" weight="0.26041666" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -505,7 +735,6 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.31602708" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.6596244" />
@@ -683,24 +912,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/generate1/TrandeHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/generate1/main2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/generate2/TradePublisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -840,45 +1055,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/distuptorinuse/MyInParkingDataEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/distuptorinuse/MyParkingDataSmsHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/distuptorinuse/MyParkingDataToKafkaHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/distuptorinuse/MyInParkingDataEventMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="47" column="41" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/distuptorinuse/MyInParkingDataEventPublisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/distuptorinuse/MyParkingDataInDbHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -999,9 +1179,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
           <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1036,10 +1213,66 @@
     <entry file="file://$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/distuptorinuse/MyInParkingDataEventMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/distuptorinuse/MyInParkingDataEventPublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/distuptorinuse/MyParkingDataInDbHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/distuptorinuse/MyParkingDataSmsHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/distuptorinuse/MyInParkingDataEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/generate2/TradePublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/disruptorTest/generate2/main1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mail/JVM/DieLikeDog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+        <state relative-caret-position="252">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>

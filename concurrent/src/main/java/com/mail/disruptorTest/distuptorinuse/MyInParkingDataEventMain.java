@@ -52,8 +52,8 @@ public class MyInParkingDataEventMain {
             executorService.submit(new MyInParkingDataEventPublisher(countDownLatch,disruptor));
             countDownLatch.await();
 
-            disruptor.shutdown();
-            executorService.shutdown();
+//            disruptor.shutdown();
+//            executorService.shutdown();
 
         } catch (Exception e) {
             e.printStackTrace();
