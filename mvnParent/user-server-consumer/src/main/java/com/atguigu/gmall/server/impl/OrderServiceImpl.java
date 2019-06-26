@@ -4,7 +4,6 @@ import com.alibaba.dubbo.config.annotation.Reference;
 import com.atguigu.gmall.bean.UserAddress;
 import com.atguigu.gmall.service.OrderService;
 import com.atguigu.gmall.service.UserServer;
- import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -14,17 +13,13 @@ public class OrderServiceImpl implements OrderService {
 
     //@Autowired
 
-    @Reference
-    UserServer UserServer;
+    @Reference(timeout = 5000, retries = 1, stub = "com.atguigu.gmall.server.UserServiceStub")
+    UserServer userServer;
 
     @Override
-    public List<UserAddress> initOrder(String userid) {
-        // 查询用户订单
-        System.out.println("用户ID");
-        List<UserAddress> list = UserServer.getUserAddressList(userid);
-     /*   for (UserAddress userAddress : list) {
-            System.out.println(userAddress);
-        }*/
+    public List<UserAddress> initOrder(String userid) throws InterruptedException {
+        System.out.println("-------------- 1 号被调用了-------------------");
+        List<UserAddress> list = userServer.getUserAddressList(userid);
         return list;
     }
 }

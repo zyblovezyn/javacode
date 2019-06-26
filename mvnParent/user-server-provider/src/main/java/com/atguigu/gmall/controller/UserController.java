@@ -20,7 +20,7 @@ public class UserController {
     }
 
     @RequestMapping("/test/user")
-    public Object getUserAddressByUserId() {
+    public Object getUserAddressByUserId() throws InterruptedException {
         return userServer.getUserAddressList("ll");
     }
 }

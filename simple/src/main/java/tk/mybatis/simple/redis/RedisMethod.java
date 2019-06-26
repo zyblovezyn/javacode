@@ -5,6 +5,7 @@ import redis.clients.jedis.Jedis;
 
 import java.io.*;
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 @Service
 public class RedisMethod implements jedisService {
@@ -355,21 +356,21 @@ public class RedisMethod implements jedisService {
         return this.getJedis().exists(key);
     }
 
-   /* private byte[] serialize(Class<T> tClass) throws IOException {
-        ByteArrayOutputStream baos = null;
-        ObjectOutputStream oos = null;
-        try {
-            baos = new ByteArrayOutputStream();
-            oos = new ObjectOutputStream(baos);
-            oos.writeObject(tClass);
-            oos.flush();
-            return baos.toByteArray();
-        } finally {
-            oos.close();
-            baos.close();
-        }
-    }
-*/
+    /* private byte[] serialize(Class<T> tClass) throws IOException {
+         ByteArrayOutputStream baos = null;
+         ObjectOutputStream oos = null;
+         try {
+             baos = new ByteArrayOutputStream();
+             oos = new ObjectOutputStream(baos);
+             oos.writeObject(tClass);
+             oos.flush();
+             return baos.toByteArray();
+         } finally {
+             oos.close();
+             baos.close();
+         }
+     }
+ */
     private byte[] serialize(Object object) throws IOException {
         ByteArrayOutputStream baos = null;
         ObjectOutputStream oos = null;
@@ -402,5 +403,53 @@ public class RedisMethod implements jedisService {
 
     private void setExpire(byte[] key, int expiration) {
         this.getJedis().expire(key, expiration);
+    }
+
+    public void add() {
+
+
+        /**
+         * 常规方法
+         */
+        /*
+        synchronized (RedisMethod.class) {
+            Jedis jedis = null;
+            try {
+                jedis = JedisPoolManager.getJedis();
+                int sock = Integer.parseInt(jedis.get("sock")) - 1;
+                jedis.set("sock", String.valueOf(sock));
+
+                System.out.println(sock);
+            } catch (Exception e) {
+                e.printStackTrace();
+            } finally {
+                jedis.close();
+            }
+        }*/
+
+
+        Jedis jedis = null;
+        jedis = JedisPoolManager.getJedis();
+        String clienId = UUID.randomUUID().toString();
+        try {
+            Boolean flag = Integer.parseInt(jedis.set("lockby", clienId, "NX", "EX", 10)) >= 1;
+            jedis.expire("lockby", 1);
+            if (flag) {
+                int sock = Integer.parseInt(jedis.get("sock")) - 1;
+                jedis.set("sock", String.valueOf(sock));
+                System.out.println(sock);
+
+            } else {
+                return;
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            if (clienId.equals(jedis.get("lockby"))) {
+                jedis.del("lockby");
+            }
+
+            jedis.close();
+        }
     }
 }

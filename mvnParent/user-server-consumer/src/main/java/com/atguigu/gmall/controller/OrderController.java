@@ -30,7 +30,7 @@ public class OrderController {
 
 
     @RequestMapping("/initOrder")
-    public List<UserAddress> initOrder(String userId){
+    public List<UserAddress> initOrder(String userId) throws InterruptedException {
         return orderService.initOrder(userId);
     }
 }

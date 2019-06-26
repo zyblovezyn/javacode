@@ -16,15 +16,16 @@ import java.io.IOException;
 @EnableDubbo
 public class GmallConsumerApplication {
 
-     public static void main(String[] args) {
+     public static void main(String[] args) throws IOException {
 
-        SpringApplication.run(GmallConsumerApplication.class,args);
-        /*System.out.println("Hello World!");
+       /* System.out.println("Hello World!");
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(new String[]{"consumer.xml"});
         context.start();
         OrderService orderService = context.getBean(OrderService.class); // 获取远程服务代理
         orderService.initOrder("0101"); // 执行远程方法
         //System.out.println( hello ); // 显示调用结果
         System.in.read();*/
+         SpringApplication.run(GmallConsumerApplication.class,args);
+         System.out.println("消费者启动成功！！！！！！！！！！！！！！！！！！！！！！！");
     }
 }

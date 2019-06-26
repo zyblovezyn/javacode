@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface OrderService {
 
-    public List<UserAddress> initOrder(String userid);
+    public List<UserAddress> initOrder(String userid) throws InterruptedException;
 }

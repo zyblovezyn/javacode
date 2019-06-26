@@ -17,12 +17,13 @@ public class UserServerImpl implements UserServer {
     UserAddressMapper userAddressMapper;
 
     @Override
-    public List<UserAddress> getUserAddressList(String userid) {
+    public List<UserAddress> getUserAddressList(String userid) throws InterruptedException {
 
        /* UserAddress userAddress=new UserAddress();
         List<UserAddress> list=new ArrayList<>();
         list.add(userAddress);
         return list;*/
-        return userAddressMapper.getUserAddressList(userid);
+        System.out.println("UserServerImpl......old.....");
+         return userAddressMapper.getUserAddressList(userid);
     }
 }
