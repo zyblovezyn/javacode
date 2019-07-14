@@ -13,6 +13,6 @@ import java.util.List;
  */
 public interface UserService {
 
-    public List<UserAddress> getUserAddress(String userid);
+    List<UserAddress> getUserAddress(String userId);
 
- }
+}

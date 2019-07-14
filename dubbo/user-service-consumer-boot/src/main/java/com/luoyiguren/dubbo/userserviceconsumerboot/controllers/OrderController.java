@@ -1,11 +1,12 @@
 package com.luoyiguren.dubbo.userserviceconsumerboot.controllers;
 
 import bean.UserAddress;
+import com.luoyiguren.dubbo.userserviceconsumerboot.service.impl.OrderService;
+import com.luoyiguren.dubbo.userserviceconsumerboot.service.impl.OrderServiceStub;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import service.OrderService;
 
 import java.util.List;
 
@@ -25,6 +26,10 @@ public class OrderController {
 
     @RequestMapping("/initOrder")
     public List<UserAddress> initOrder(String userId) {
+
+        if(StringUtils.isEmpty(userId)){
+            return null;
+        }
         return orderService.initOrder(userId);
     }
 }
