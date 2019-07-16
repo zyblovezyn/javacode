@@ -22,7 +22,6 @@ public class ConcurrentLinkedQueueTest {
         ConcurrentLinkedQueue<String> linkedQueue=new ConcurrentLinkedQueue<>(list);
         linkedQueue.offer("d");
 
-        System.out.println(Reflection.getCallerClass());
 
     }
 

@@ -1,9 +1,9 @@
 package com.java12.HeadFirst.proxy.cglibproxy;
 
-import org.aopalliance.intercept.MethodInterceptor;
-import org.aopalliance.intercept.MethodInvocation;
-import org.springframework.cglib.proxy.Callback;
 import org.springframework.cglib.proxy.Enhancer;
+import org.springframework.cglib.proxy.MethodProxy;
+
+import java.lang.reflect.Method;
 
 /**
  * @author zyb
@@ -18,7 +18,7 @@ import org.springframework.cglib.proxy.Enhancer;
  * Cglib 子类代理工厂
  * 对UserDao在内存中动态构建一个子类对象
  */
-public class ProxyFactoryTest implements MethodInterceptor, Callback {
+public class ProxyFactoryTest implements org.springframework.cglib.proxy.MethodInterceptor {
     //维护目标对象
     private Object target;
 
@@ -33,18 +33,15 @@ public class ProxyFactoryTest implements MethodInterceptor, Callback {
         // 2. 设置父类
         enhancer.setSuperclass(target.getClass());
         // 3. 设置回调函数
-        //enhancer.setCallback(this);
+        enhancer.setCallback(this);
         return enhancer.create();
     }
+
     @Override
-    public Object invoke(MethodInvocation methodInvocation) throws Throwable {
-        System.out.println("开始事务......");
-
-        // 执行目标方法
-        Object returenValue = methodInvocation.getMethod().invoke(target, methodInvocation.getArguments());
-
-        System.out.println("提交事务.....");
-        return returenValue;
-
+    public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
+        System.out.println("开启事务.......................");
+        Object retValue = method.invoke(target, objects);
+        System.out.println("结束事务.......................");
+        return retValue;
     }
 }
