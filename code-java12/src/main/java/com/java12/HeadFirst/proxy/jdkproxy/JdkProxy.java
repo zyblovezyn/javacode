@@ -14,12 +14,12 @@ import java.lang.reflect.Proxy;
 public class JdkProxy {
     public static void main(String[] args) {
         //目标对象
-        IUserDao target=new UserDao();
+        IUserDao target = new UserDao();
 
         System.out.println(target.getClass());
 
         // 给目标对象，创建代理对象
-        IUserDao proxy=(IUserDao)new ProxyFactoryTest(target).getProxyInstance();
+        IUserDao proxy = (IUserDao) new ProxyFactory(target).getProxyInstance();
 
         //class 内存中动态生成的代理对象 $Proxy0
         System.out.println(proxy.getClass());
@@ -33,7 +33,7 @@ public class JdkProxy {
  * 创建动态代理对象
  * 动态代理不需要实现接口，但是需要指定接口类型
  */
-class ProxyFactory{
+/*class ProxyFactory{
     //维护一个目标对象
     private Object target;
 
@@ -55,15 +55,35 @@ class ProxyFactory{
                 }
         );
     }
+}*/
+
+
+class ProxyFactory {
+    private Object target;
+
+    public ProxyFactory(Object target) {
+        this.target = target;
+    }
+
+    public Object getProxyInstance() {
+        return Proxy.newProxyInstance(target.getClass().getClassLoader(), target.getClass().getInterfaces(),
+                (proxy, method, args) -> {
+                    System.out.println("开始事务");
+                    Object ret = method.invoke(target, args);
+                    System.out.println("结束事务");
+                    return ret;
+                });
+    }
 }
 
 
 /**
  * 接口
  */
-interface IUserDao{
+interface IUserDao {
     void save();
 }
+
 /**
  * 接口实现
  * 目标对象

@@ -19,7 +19,7 @@ import java.lang.reflect.Method;
  * 对UserDao在内存中动态构建一个子类对象
  */
 public class ProxyFactoryTest implements org.springframework.cglib.proxy.MethodInterceptor {
-    //维护目标对象
+  /*  //维护目标对象
     private Object target;
 
     public ProxyFactoryTest(Object target) {
@@ -43,5 +43,33 @@ public class ProxyFactoryTest implements org.springframework.cglib.proxy.MethodI
         Object retValue = method.invoke(target, objects);
         System.out.println("结束事务.......................");
         return retValue;
+    }*/
+
+
+    //methodinterceptor
+
+
+    private Object target;
+
+    public ProxyFactoryTest(Object target) {
+        this.target = target;
+    }
+
+
+    public Object getProxyInstance() {
+        Enhancer enhancer = new Enhancer();
+        enhancer.setSuperclass(target.getClass());
+        enhancer.setCallback(this);
+        return enhancer.create();
+    }
+
+
+    @Override
+    public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
+
+        System.out.println("开始事务");
+        Object ret = method.invoke(target, objects);
+        System.out.println("结束事务");
+        return ret;
     }
 }
