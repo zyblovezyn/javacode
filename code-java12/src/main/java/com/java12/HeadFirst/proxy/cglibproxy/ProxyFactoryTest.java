@@ -45,31 +45,31 @@ public class ProxyFactoryTest implements org.springframework.cglib.proxy.MethodI
         return retValue;
     }*/
 
-
-    //methodinterceptor
-
-
     private Object target;
 
     public ProxyFactoryTest(Object target) {
         this.target = target;
     }
 
-
     public Object getProxyInstance() {
+        //工具类
         Enhancer enhancer = new Enhancer();
+
+        //设置父类
         enhancer.setSuperclass(target.getClass());
+
+        //设置回调函数
         enhancer.setCallback(this);
+
         return enhancer.create();
     }
-
 
     @Override
     public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
 
-        System.out.println("开始事务");
+        System.out.println("start transaction");
         Object ret = method.invoke(target, objects);
-        System.out.println("结束事务");
+        System.out.println("end transaction");
         return ret;
     }
 }

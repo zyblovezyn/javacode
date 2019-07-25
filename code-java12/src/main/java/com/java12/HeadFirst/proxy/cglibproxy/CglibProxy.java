@@ -11,13 +11,17 @@ import org.springframework.aop.framework.ProxyFactory;
  */
 public class CglibProxy {
     public static void main(String[] args) {
-        // 目标对象
+/*        // 目标对象
         UserDao target = new UserDao();
 
         // 代理对象
         UserDao proxy = (UserDao) new ProxyFactoryTest(target).getProxyInstance();
 
         // 执行代理方法
+        proxy.save();*/
+
+        UserDao target=new UserDao();
+        UserDao proxy=(UserDao)new ProxyFactoryTest(target).getProxyInstance();
         proxy.save();
     }
 }
