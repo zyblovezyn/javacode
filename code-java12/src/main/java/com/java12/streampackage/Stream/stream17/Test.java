@@ -1,7 +1,6 @@
-package com.java12.Stream.stream17;
+package com.java12.streampackage.Stream.stream17;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
