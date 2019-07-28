@@ -14,6 +14,7 @@ public class Student implements Serializable {
     private String name;
     private Integer age;
     private String address;
+    private Integer score;
 
     public String getName() {
         return name;
@@ -39,6 +40,14 @@ public class Student implements Serializable {
         this.address = address;
     }
 
+    public Integer getScore() {
+        return score;
+    }
+
+    public void setScore(Integer score) {
+        this.score = score;
+    }
+
     public Student() {
     }
 
@@ -46,6 +55,22 @@ public class Student implements Serializable {
         this.name = name;
         this.age = age;
         this.address = address;
+    }
+
+    public Student(String name, Integer age, Integer score) {
+        this.name = name;
+        this.age = age;
+        this.score = score;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", address='" + address + '\'' +
+                ", score=" + score +
+                '}';
     }
 }
 
