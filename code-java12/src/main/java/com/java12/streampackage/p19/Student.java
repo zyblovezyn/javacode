@@ -63,12 +63,16 @@ public class Student implements Serializable {
         this.score = score;
     }
 
+
+    public Student(String name, Integer score) {
+        this.name = name;
+        this.score = score;
+    }
+
     @Override
     public String toString() {
         return "Student{" +
                 "name='" + name + '\'' +
-                ", age=" + age +
-                ", address='" + address + '\'' +
                 ", score=" + score +
                 '}';
     }
