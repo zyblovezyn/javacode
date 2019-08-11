@@ -11,30 +11,18 @@ import java.util.concurrent.Executors;
 
 @EnableTransactionManagement //开启springboot事务支持
 @RestController
-public class CountryController{
+public class CountryController {
 
     @Autowired
     protected CountryService countryService;
 
     @RequestMapping("/boot/selectAll")
-    public Object selectAll(){
-
-        //多线程测试缓存穿透问题
-        ExecutorService executorServive=Executors.newFixedThreadPool(5);
-
-        for (int i=0;i<10000;i++){
-            executorServive.submit(new Runnable() {
-                @Override
-                public void run() {
-                    countryService.selectAll();
-                }
-            });
-        }
-
+    public Object selectAll() {
         return countryService.selectAll();
     }
+
     @RequestMapping("/boot/update")
-    public Object update(){
+    public Object update() {
         return countryService.update();
     }
 }
