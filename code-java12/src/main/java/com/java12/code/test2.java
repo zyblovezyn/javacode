@@ -10,6 +10,7 @@ package com.java12.code;
 public class test2 {
     public static void main(String[] args) {
         String name="123-456";
+        Long ltest;
         System.out.println(name.substring("123-".length()));
     }
 }
