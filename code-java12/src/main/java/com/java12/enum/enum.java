@@ -55,7 +55,50 @@ class FamilyEnum {
                     '}';
         }
     }
+public static enum PaymentModeEnum {
 
+    REMITTANCE(1,"汇款");
+
+    Integer code;
+    String value;
+
+     PaymentModeEnum(Integer code , String value){
+        this.code=code;
+        this.value=value;
+
+    }
+    public static Integer getCodeByValue(String value) {
+        if (null == value || value.length() <= 0) {
+            return null;
+        }
+        for (PaymentModeEnum modeEnum : PaymentModeEnum.values()) {
+            if (modeEnum.getDesc().equals(value)) {
+                return modeEnum.getCode();
+            }
+        }
+        return null;
+    }
+    public static String getValueBycode(Integereger code) {
+        if (null == code) {
+            return StringUtils.EMPTY;
+        }
+
+        for (PaymentModeEnum status : values()) {
+            if (status.getCode() == code) {
+                return status.getvalue();
+            }
+        }
+
+        return StringUtils.EMPTY;
+    }
+    public Integer getCode() {
+        return code;
+    }
+
+    public String getvalue() {
+        return value;
+    }
+}
     // 角色
     public static enum Role {
         SYSTEM("系统管理员", 0),
