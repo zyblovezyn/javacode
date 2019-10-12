@@ -1,11 +1,10 @@
-package tk.mybatis.simple.controller;
+package com.luyang.windmill.controller;
 
-import org.apache.ibatis.annotations.Param;
+import com.luyang.windmill.bean.Employee;
+import com.luyang.windmill.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import tk.mybatis.simple.model.Employee;
-import tk.mybatis.simple.service.EmployeeService;
+
 
 
 //@EnableTransactionManagement //开启springboot事务支持
@@ -17,7 +16,7 @@ public class EmployeeController {
     protected EmployeeService employeeService;
 
     @RequestMapping(value = "/selectById")
-    public  Employee selectById(Integer id) {
+    public Employee selectById(Integer id) {
         return employeeService.selectById(id);
     }
 

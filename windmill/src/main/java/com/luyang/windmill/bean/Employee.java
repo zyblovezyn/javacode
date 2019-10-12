@@ -1,4 +1,4 @@
-package tk.mybatis.simple.model;
+package com.luyang.windmill.bean;
 
 import lombok.Data;
 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="tk.mybatis.simple.mapper.EmployeeMapper">
+<mapper namespace="com.luyang.windmill.mapper.EmployeeMapper">
 
 
 
 
-    <select id="selectById" resultType="tk.mybatis.simple.model.Employee" parameterType="java.lang.Integer">
+    <select id="selectById" resultType="com.luyang.windmill.bean.Employee" parameterType="java.lang.Integer">
         SELECT
               id,
               last_name AS lastName,

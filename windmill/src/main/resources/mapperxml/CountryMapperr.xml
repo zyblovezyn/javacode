@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.luyang.windmill.mapper.CountryMapper">
+
+    <!--  <resultMap id="userResultMap" type="tk.mybatis.simple.model.Country">
+          <id property="id" column="id"/>
+          <result property="countryName" column="countryName"/>
+          <result property="countryCode" column="countryCode"/>
+      </resultMap>-->
+    <sql id="dataColumn">
+         id, countryName, countryCode
+    </sql>
+    <select id="selectAll" resultType="com.luyang.windmill.bean.Country">
+        SELECT
+          <include refid="dataColumn"/>
+        FROM
+             mybatis.country
+    </select>
+    <update id="update" parameterType="com.luyang.windmill.bean.Country">
+        update mybatis.country set  countryName=#{countryName} where id=#{id}
+    </update>
+
+    <select id="selectById" resultType="com.luyang.windmill.bean.Country" parameterType="long">
+        select <include refid="dataColumn"/> from mybatis.country where id=#{id}
+    </select>
+</mapper>
