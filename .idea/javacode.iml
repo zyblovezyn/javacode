@@ -2,7 +2,15 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/concurrent/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/concurrent/src/main/java/com/mail/JDK" />
+      <excludeFolder url="file://$MODULE_DIR$/concurrent/src/main/java/com/mail/concurrent" />
+      <excludeFolder url="file://$MODULE_DIR$/concurrent/src/main/java/com/mail/disruptorTest" />
+      <excludeFolder url="file://$MODULE_DIR$/concurrent/src/main/java/com/mail/netty" />
+      <excludeFolder url="file://$MODULE_DIR$/concurrent/src/main/java/com/mail/spring" />
+      <excludeFolder url="file://$MODULE_DIR$/concurrent/src/yxxy" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
